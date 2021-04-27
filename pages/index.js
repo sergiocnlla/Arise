@@ -47,7 +47,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>A revolução tecnológica é aqui</h1>
+              <h1 className={classes.title}>O futuro do seu negócio é na Arise</h1>
               <h4>
               Desenvolvimento ágil para o seu negócio! Aqui nós aliamos a tecnologia ao operacional, gerando facilidades e evolução.
               </h4>

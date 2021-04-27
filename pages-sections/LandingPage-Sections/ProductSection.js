@@ -26,7 +26,8 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Vamos falar sobre nós</h2>
           <h5 className={classes.description}>
-            A Arise é uma empresa muito legal
+            Você sabia que Arise significa "surgir"? Nós surgiremos para um novo mundo, um novo tempo. A Arise tem a missão de trazer aos seus clientes a revolução tecnológica do mais alto nível, nossos colaboradores são pessoas extremamente qualificadas e apaixonadas por tecnologia. Também iremos revolucionar a relação Empresa/Colaborador com o nosso sistema de meritocracia.
+            Conte com a empresa 
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,16 +36,16 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Web"
-              description="Sem palavras."
+              description="Utilizamos as mais modernas e performáticas tecnologias do mercado."
               icon={Desktop}
-              iconColor="info"
+              iconColor="danger"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Mobile"
-              description="Não sei o que dizer."
+              description="Aplicativos pensados para o usuário, elegantes e modernos. Desenvolvidos com as melhores tecnologias do mercado, como Flutter e SwiftUI."
               icon={Smartphone}
               iconColor="success"
               vertical
@@ -53,9 +54,9 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Serviços em nuvem"
-              description="Não sei o que dizer."
+              description="Aplicações e serviços gerenciados em nuvem, oferecendo segurança, performance e praticidade."
               icon={Cloud}
-              iconColor="danger"
+              iconColor="info"
               vertical
             />
           </GridItem>

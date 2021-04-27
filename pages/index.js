@@ -49,7 +49,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>O futuro do seu negócio é na Arise</h1>
               <h4>
-              Desenvolvimento ágil para o seu negócio! Aqui nós aliamos a tecnologia ao operacional, gerando facilidades e evolução.
+              Desenvolvimento ágil e focado na otimização dos processos, aqui nós aliamos a tecnologia ao operacional, sempre expandindo as possibilidades.
               </h4>
               <br />
               <Button

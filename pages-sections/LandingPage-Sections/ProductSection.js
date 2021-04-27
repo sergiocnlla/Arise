@@ -26,8 +26,8 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Vamos falar sobre nós</h2>
           <h5 className={classes.description}>
-            Você sabia que Arise significa "surgir"? Nós surgiremos para um novo mundo, um novo tempo. A Arise tem a missão de trazer aos seus clientes a revolução tecnológica do mais alto nível, nossos colaboradores são pessoas extremamente qualificadas e apaixonadas por tecnologia. Também iremos revolucionar a relação Empresa/Colaborador com o nosso sistema de meritocracia.
-            Conte com a empresa 
+            Você sabia que Arise significa "surgir"? Nós surgiremos para um novo mundo, um novo tempo, com a missão de trazer aos clientes a revolução tecnológica do mais alto nível, facilitando todo o negócio e seus processos, automatizando e expandindo. Nossos colaboradores são pessoas extremamente qualificadas e apaixonadas por tecnologia. Também iremos revolucionar a relação Empresa/Colaborador com o nosso sistema de meritocracia.
+            Conte com a Arise, venha surgir conosco para o novo mundo.
           </h5>
         </GridItem>
       </GridContainer>

@@ -26,7 +26,7 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
+      {/*<ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           navDropdown
@@ -49,8 +49,8 @@ export default function HeaderLinks(props) {
             </a>
           ]}
         />
-      </ListItem>
-      <ListItem className={classes.listItem}>
+      </ListItem>*/}
+      {/*<ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmk-navbar"
           color="transparent"
@@ -71,11 +71,11 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
+        <Tooltip title="Delete">
           <IconButton aria-label="Delete">
             <DeleteIcon />
           </IconButton>
-        </Tooltip>*/}
+        </Tooltip>
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
@@ -108,21 +108,40 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + " fab fa-facebook"} />
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem>*/}
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
-          title="Follow us on instagram"
+          title="Entre em contato conosco via WhatsApp"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://wa.me/5511948404550"
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
+            <i className={classes.socialIcons + " " + classes.marginRight5 + " fab fa-whatsapp"} />
+            WhatsApp
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-tooltip"
+          title="Siga a gente no Instagram"
+          placement={"top"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.instagram.com/arise.ti?ref=arise.ti"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " " + classes.marginRight5 + " fab fa-instagram"} />
+            Instagram
           </Button>
         </Tooltip>
       </ListItem>

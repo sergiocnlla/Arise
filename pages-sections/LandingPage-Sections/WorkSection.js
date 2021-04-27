@@ -20,7 +20,7 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+          <h2 className={classes.title}>Fale conosco</h2>
           <h4 className={classes.description}>
             Divide details about your product or agency work into parts. Write a
             few lines about each one and contact us about any further
@@ -31,7 +31,7 @@ export default function WorkSection() {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Name"
+                  labelText="Seu Nome"
                   id="name"
                   formControlProps={{
                     fullWidth: true
@@ -40,7 +40,7 @@ export default function WorkSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Email"
+                  labelText="Seu Email"
                   id="email"
                   formControlProps={{
                     fullWidth: true
@@ -48,7 +48,7 @@ export default function WorkSection() {
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
+                labelText="Mensagem"
                 id="message"
                 formControlProps={{
                   fullWidth: true,
@@ -60,7 +60,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="primary">Send Message</Button>
+                <Button color="primary" className="btnHome">Enviar Mensagem</Button>
               </GridItem>
             </GridContainer>
           </form>

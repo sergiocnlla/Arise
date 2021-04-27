@@ -78,7 +78,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>Arise TI</title>
+          <title>Arise Consultoria em TI</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>

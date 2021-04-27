@@ -62,9 +62,9 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
   const brandComponent = (
-    <Link href="/components" as="/components">
-      <Button className={classes.title}>{brand}</Button>
-    </Link>
+    //<Link href="/components" as="/components">
+    <Button className={classes.title}><img src={brand} className="logo-header" /></Button>
+    //</Link>
   );
   return (
     <AppBar className={appBarClasses}>
@@ -113,7 +113,7 @@ export default function Header(props) {
 }
 
 Header.defaultProp = {
-  color: "white"
+  color: "black"
 };
 
 Header.propTypes = {
@@ -126,7 +126,8 @@ Header.propTypes = {
     "transparent",
     "white",
     "rose",
-    "dark"
+    "dark",
+    "black"
   ]),
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,
@@ -150,7 +151,8 @@ Header.propTypes = {
       "transparent",
       "white",
       "rose",
-      "dark"
+      "dark",
+      "black"
     ]).isRequired
   })
 };

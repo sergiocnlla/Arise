@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Router from "next/router";
 
-export default class Doc extends Component {
+export default class Index extends Component {
   componentDidMount = () => {
     Router.push("/index");
   };

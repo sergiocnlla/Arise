@@ -32,17 +32,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/components.js";
 
 const useStyles = makeStyles(styles);
 
-
-export default class Components extends Component {
-  componentDidMount = () => {
-    Router.push("/index");
-  };
-
-  render() {
-    return <div />;
-  }
-}
-/*export default function Components(props) {
+export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -99,4 +89,4 @@ export default class Components extends Component {
       <Footer />
     </div>
   );
-}*/
+}

@@ -22,9 +22,10 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Fale conosco</h2>
           <h4 className={classes.description}>
-            Tire todas as suas dúvidas, será um prazer respondê-las
+            {/*Tire todas as suas dúvidas, será um prazer respondê-las*/}
+            Em breve, nosso formulário de contato. Onde você poderá tirar todas as dúvidas, será um prazer respondê-las <Favorite className={classes.icons} />
           </h4>
-          <form>
+          {/*<form>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
@@ -60,7 +61,7 @@ export default function WorkSection() {
                 <Button color="primary" className="btnHome">Enviar Mensagem</Button>
               </GridItem>
             </GridContainer>
-          </form>
+          </form>*/}
         </GridItem>
       </GridContainer>
     </div>

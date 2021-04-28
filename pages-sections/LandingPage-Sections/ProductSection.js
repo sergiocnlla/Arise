@@ -26,8 +26,8 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Vamos falar sobre nós</h2>
           <h5 className={classes.description}>
-            Você sabia que Arise significa "surgir"? Nós surgiremos para um novo mundo, um novo tempo, com a missão de trazer aos clientes a revolução tecnológica do mais alto nível, facilitando todo o negócio e seus processos, automatizando e expandindo. Nossos colaboradores são pessoas extremamente qualificadas e apaixonadas por tecnologia. Também iremos revolucionar a relação Empresa/Colaborador com o nosso sistema de meritocracia.
-            Conte com a Arise, venha surgir conosco para o novo mundo.
+            Você sabia que Arise significa "surgir"? Nós surgiremos para um novo mundo, um novo tempo, com a missão de trazer aos clientes a revolução tecnológica do mais alto nível, facilitando, automatizando e expandindo todo o negócio e seus processos. Nossos colaboradores são pessoas extremamente qualificadas e apaixonadas por tecnologia. Também iremos revolucionar a relação Empresa/Colaborador com o nosso sistema de meritocracia.
+            Conte com a Arise, venha surgir conosco para o novo mundo. Aqui, as possibilidades são infinitas.
           </h5>
         </GridItem>
       </GridContainer>
@@ -36,7 +36,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Web"
-              description="Utilizamos as mais modernas e performáticas tecnologias do mercado."
+              description="Utilizamos as mais modernas e performáticas tecnologias do mercado. Sites otimizados para SEO, responsivos, rápidos e com muitas possibilidades."
               icon={Desktop}
               iconColor="danger"
               vertical
@@ -45,7 +45,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Mobile"
-              description="Aplicativos pensados para o usuário, elegantes e modernos. Desenvolvidos com as melhores tecnologias do mercado, como Flutter e SwiftUI."
+              description="Aplicativos pensados em detalhes para o usuário, elegantes e modernos. Desenvolvidos com as melhores tecnologias do mercado, como Flutter e SwiftUI."
               icon={Smartphone}
               iconColor="success"
               vertical

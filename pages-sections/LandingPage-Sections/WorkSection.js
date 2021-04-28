@@ -23,7 +23,7 @@ export default function WorkSection() {
           <h2 className={classes.title}>Fale conosco</h2>
           <h4 className={classes.description}>
             {/*Tire todas as suas dúvidas, será um prazer respondê-las*/}
-            Em breve, nosso formulário de contato. Onde você poderá tirar todas as dúvidas, será um prazer respondê-las <Favorite className={classes.icons} />
+            Em breve, nosso formulário de contato. Onde você poderá tirar todas as dúvidas, será um prazer respondê-las!
           </h4>
           {/*<form>
             <GridContainer>

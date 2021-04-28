@@ -74,7 +74,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           {/*<TeamSection />*/}
-          {/*<WorkSection />*/}
+          <WorkSection />
         </div>
       </div>
       <Footer />

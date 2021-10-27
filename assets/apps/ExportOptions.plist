@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>compileBitcode</key>
-	<false/>
+	<true/>
 	<key>destination</key>
 	<string>export</string>
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://www.ariseti.com/apps/bitfit.ipa</string>
+		<string>https://www.ariseti.com/assets/apps/bitfit.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://www.ariseti.com/assets/img/image.57x57.png</string>
 		<key>fullSizeImageURL</key>

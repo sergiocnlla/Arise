@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bitfit.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A83BD935CC2206081ABA5DB8818C4646C3C959B4</string>
+				<key>dateExpires</key>
+				<string>27/10/22</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7k</string>
+						<string>arm64_32</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A83BD935CC2206081ABA5DB8818C4646C3C959B4</string>
+						<key>dateExpires</key>
+						<string>27/10/22</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>embeddedBinaries</key>
+					<array>
+						<dict>
+							<key>architectures</key>
+							<array>
+								<string>armv7k</string>
+								<string>arm64_32</string>
+							</array>
+							<key>buildNumber</key>
+							<string>1</string>
+							<key>certificate</key>
+							<dict>
+								<key>SHA1</key>
+								<string>A83BD935CC2206081ABA5DB8818C4646C3C959B4</string>
+								<key>dateExpires</key>
+								<string>27/10/22</string>
+								<key>type</key>
+								<string>Cloud Managed Apple Distribution</string>
+							</dict>
+							<key>entitlements</key>
+							<dict>
+								<key>application-identifier</key>
+								<string>G59KTWYH62.sergiocanella.Bitfit.watchkitapp.watchkitextension</string>
+								<key>com.apple.developer.healthkit</key>
+								<true/>
+								<key>com.apple.developer.healthkit.access</key>
+								<array/>
+								<key>com.apple.developer.healthkit.background-delivery</key>
+								<true/>
+								<key>com.apple.developer.team-identifier</key>
+								<string>G59KTWYH62</string>
+								<key>get-task-allow</key>
+								<false/>
+							</dict>
+							<key>name</key>
+							<string>Bitfit Trainning WatchKit Extension.appex</string>
+							<key>profile</key>
+							<dict>
+								<key>UUID</key>
+								<string>ab71a113-6dcf-4f9c-a808-caccfe82ea39</string>
+								<key>dateExpires</key>
+								<string>27/10/22</string>
+								<key>name</key>
+								<string>iOS Team Ad Hoc Provisioning Profile: sergiocanella.Bitfit.watchkitapp.watchkitextension</string>
+							</dict>
+							<key>team</key>
+							<dict>
+								<key>id</key>
+								<string>G59KTWYH62</string>
+								<key>name</key>
+								<string>Sergio Canella</string>
+							</dict>
+							<key>versionNumber</key>
+							<string>1.0</string>
+						</dict>
+					</array>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>G59KTWYH62.sergiocanella.Bitfit.watchkitapp</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>G59KTWYH62</string>
+						<key>get-task-allow</key>
+						<false/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>G59KTWYH62.sergiocanella.Bitfit.watchkitapp</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>Bitfit Trainning.app</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>c9ee94ff-456f-42ca-8a4f-c7f3e00c566a</string>
+						<key>dateExpires</key>
+						<string>27/10/22</string>
+						<key>name</key>
+						<string>iOS Team Ad Hoc Provisioning Profile: sergiocanella.Bitfit.watchkitapp</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>G59KTWYH62</string>
+						<key>name</key>
+						<string>Sergio Canella</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>G59KTWYH62.sergiocanella.Bitfit</string>
+				<key>com.apple.developer.healthkit</key>
+				<true/>
+				<key>com.apple.developer.healthkit.access</key>
+				<array>
+					<string>health-records</string>
+				</array>
+				<key>com.apple.developer.healthkit.background-delivery</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>G59KTWYH62</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Bitfit.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7b765c34-860b-444f-ab8e-7c98a9c2bd98</string>
+				<key>dateExpires</key>
+				<string>27/10/22</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: sergiocanella.Bitfit</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>G59KTWYH62</string>
+				<key>name</key>
+				<string>Sergio Canella</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
